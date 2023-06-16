@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+.btn {
+    width: 60px;
+    padding: 10px;
+}

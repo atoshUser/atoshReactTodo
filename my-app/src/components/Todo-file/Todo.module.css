@@ -23,8 +23,31 @@
     padding-left: 15px;
 }
 
+.rightStyle {
+    display: flex;
+    padding-right: 10px;
+    gap: 10px;
+}
+
 .todoIcon {
     display: flex;
     font-size: 30px;
     color: #1547;
+}
+
+.trash,
+.ischeck {
+    transition: color 0.5s ease;
+}
+
+.trash:hover {
+    color: red;
+}
+.ischeck:hover {
+    color: green;
+}
+
+.checked {
+    color: grey;
+    background-color: unset;
 }

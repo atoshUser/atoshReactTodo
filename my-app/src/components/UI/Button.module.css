@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(240, 240, 160);
+}

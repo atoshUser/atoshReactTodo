@@ -1,0 +1,25 @@
+.app {
+    margin-top: 30px;
+    text-align: center;
+    width: 500px;
+}
+
+.todoHeading {
+    color: white;
+    font-size: 45px;
+    word-spacing: 1.5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+
+.msg {
+    font-size: 45px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}

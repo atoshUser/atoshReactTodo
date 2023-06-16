@@ -1,0 +1,30 @@
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(228, 242, 239, 0.467);
+    padding: 10px 0;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: transform 0.7s ease;
+}
+.listItem:hover {
+    transform: scale(1.1);
+}
+
+.textStyle {
+    padding-left: 38px;
+}
+.leftStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.todoIcon {
+    display: flex;
+    font-size: 30px;
+    color: #1547;
+}
